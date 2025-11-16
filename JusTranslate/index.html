@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JusTranslate</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="img/JusTranslate.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="img/JusTranslate.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="img/JusTranslate.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+    >
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px">
+            <span
+                ><a href="#home" style="display: flex; align-items: center"
+                    ><img
+                        class="img2"
+                        src="img/JusTranslate.png"
+                        width="40"
+                        style="margin: -25px -10px -25px -20px"
+                    />
+                    <h1 class="logo">&nbsp;JusTranslate</h1></a
+                ></span
+            >
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" id="pri" class="cir_border">Home</a>
+                </li>
+                <li>
+                    <a href="#abtus" id="tri" class="cir_border">About Us</a>
+                </li>
+                <li>
+                    <a href="#price" id="sec" class="cir_border">Prices</a>
+                </li>
+                <li>
+                    <a href="#tos" id="tri" class="cir_border">Terms of Services</a>
+                </li>
+                <li>
+                    <a href="#example" id="sec" class="cir_border">Examples</a>
+                </li>
+                <li>
+                    <a href="#contact" id="hept" class="cir_border">Contact</a>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+        </nav>
+        <!--navbar-->
+
+        <header id="home">
+            <div class="header-content">
+                <h2 id="quote">We Make it Clear Far or Near</h2>
+                <div class="line"></div>
+                <h1>JusTranslate</h1>
+                <a
+                    href="#abtus"
+                    class="ctn"
+                    onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'
+                    >Learn more</a
+                >
+            </div>
+        </header>
+
+        <!--About US-->
+        <section class="events" id="abtus">
+            <div class="explore-content">
+                <h1><br \>About Us</h1>
+                <div class="line"></div>
+                <p>
+                    Welcome to JusTranslate, your trusted partner for global language solutions. 
+                    We are a professional and sworn translation agency dedicated to bridging communication across languages. 
+                    Since 2023, we have served the translation needs for legal, academic, business, and technical documents for individuals, corporations, and government institutions.
+                    Our team consists of official, certified translators who are experienced in their respective fields, guaranteeing that every translation result has high accuracy, data integrity, and assured legality (especially for sworn documents). <br \>
+                    Our Motto: Linguistic Precision, Document Validity.
+                    <br \>
+                </p>
+                <!--<img class="card-img" src="./img/faiq.jpg">
+                this is paiq-->
+            </div>
+        </section>
+        <!--About Us-->
+
+        <!--Price-->
+        <section class="explore" id="price">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Prices</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <article class="explore-content">
+                        <h4 class="dark">Harga 1</h4>
+                        <p class="font-color">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis odio at erat mattis fermentum vitae ac massa. Nam egestas mauris elit, nec aliquet nisl sodales nec. Cras rutrum fringilla placerat. Sed sollicitudin finibus mauris, ac condimentum quam malesuada non. Integer interdum convallis metus, vel gravida tortor ultricies quis. Proin eu tempor ex. Donec ullamcorper ex congue arcu consectetur malesuada. Morbi quam dui, auctor vel ex at, venenatis varius lorem. Morbi accumsan sodales ante non blandit. Ut elementum eros mauris. Etiam faucibus justo sit amet gravida volutpat. Maecenas magna ipsum, ultrices at interdum sed, fringilla in ante. Pellentesque tempor placerat tortor, lobortis luctus risus egestas sit amet. Etiam fringilla, tortor at lobortis elementum, est augue sagittis diam, sed euismod purus felis accumsan ipsum. Cras in lacus felis. Donec sollicitudin eleifend nunc, at bibendum ipsum sodales in. 
+                        </p>
+                    </article>
+                    <article class="explore-content">
+                        <h4 class="dark">Harga 2</h4>
+                        <p class="font-color">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis odio at erat mattis fermentum vitae ac massa. Nam egestas mauris elit, nec aliquet nisl sodales nec. Cras rutrum fringilla placerat. Sed sollicitudin finibus mauris, ac condimentum quam malesuada non. Integer interdum convallis metus, vel gravida tortor ultricies quis. Proin eu tempor ex. Donec ullamcorper ex congue arcu consectetur malesuada. Morbi quam dui, auctor vel ex at, venenatis varius lorem. Morbi accumsan sodales ante non blandit. Ut elementum eros mauris. Etiam faucibus justo sit amet gravida volutpat. Maecenas magna ipsum, ultrices at interdum sed, fringilla in ante. Pellentesque tempor placerat tortor, lobortis luctus risus egestas sit amet. Etiam fringilla, tortor at lobortis elementum, est augue sagittis diam, sed euismod purus felis accumsan ipsum. Cras in lacus felis. Donec sollicitudin eleifend nunc, at bibendum ipsum sodales in.
+                        </p>
+                    </article>
+                    <article class="explore-content">
+                        <h4 class="dark"> Harga 3</h4>
+                        <p class="font-color">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis odio at erat mattis fermentum vitae ac massa. Nam egestas mauris elit, nec aliquet nisl sodales nec. Cras rutrum fringilla placerat. Sed sollicitudin finibus mauris, ac condimentum quam malesuada non. Integer interdum convallis metus, vel gravida tortor ultricies quis. Proin eu tempor ex. Donec ullamcorper ex congue arcu consectetur malesuada. Morbi quam dui, auctor vel ex at, venenatis varius lorem. Morbi accumsan sodales ante non blandit. Ut elementum eros mauris. Etiam faucibus justo sit amet gravida volutpat. Maecenas magna ipsum, ultrices at interdum sed, fringilla in ante. Pellentesque tempor placerat tortor, lobortis luctus risus egestas sit amet. Etiam fringilla, tortor at lobortis elementum, est augue sagittis diam, sed euismod purus felis accumsan ipsum. Cras in lacus felis. Donec sollicitudin eleifend nunc, at bibendum ipsum sodales in.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--Price-->
+
+        <!--TOS-->
+        <section class="events2" id="tos">
+            <div class="explore-content">
+                <h1><br \>Term of Services</h1>
+                <div class="line"></div>
+                <p>
+                    1. <strong>Layanan / Services:</strong> JusTranslate menyediakan layanan penerjemahan non-tersumpah, yaitu penerjemahan general dan dokumen resmi. Fokus kami pada keakuratan makna, gaya bahasa, dan keterbacaan, bukan legalisasi. <br \>
+                    <br \>
+                    2. <strong>Proses Pengerjaan:</strong> Penerjemahan dimulai setelah pelanggan mengirim dokumen dan melakukan konfirmasi pesanan. Waktu pengerjaan tergantung pada jumlah kata, tingkat kesulitan, dan format dokumen. Pelanggan disarankan memberikan referensi istilah (jika ada) sebelum proses dimulai. Estimasi waktu pengerjaan akan diberi tahu setelah 5 menit analisis dokumen yang akan diterjemahkan <br \>
+                    <br \>
+                    3. <strong>Revisi:</strong> Pelanggan berhak atas satu kali revisi minor tanpa biaya tambahan, selama revisi tidak mengubah isi utama. Revisi tambahan akan dikenakan biaya sesuai kesepakatan. <br \>
+                    <br \>
+                    4. <strong>Pembayaran:</strong> Pembayaran dilakukan di muka (DP minimal 40%) sebelum pengerjaan dimulai dan dilunasi sebelum hasil akhir dikirim. Pembatalan setelah proses berjalan tidak dapat dikembalikan (non-refundable). <br \>
+                    <br \>
+                    5. <strong>Privasi:</strong>  Semua dokumen pelanggan dijaga kerahasiaannya dan tidak akan dibagikan, dipublikasikan, atau digunakan tanpa izin. <br \>
+                    <br \>
+                    6. <strong>Hak Cipta:</strong> Isi dari dokumen tetap menjadi milik pelanggan. JusTranslate hanya berhak menampilkan hasil terjemahan sebagai portofolio dengan izin pelanggan. <br \>
+                    <br \>
+                    7. <strong>Batasan Tanggung Jawab:</strong> JusTranslate tidak bertanggung jawab atas penggunaan hasil terjemahan untuk keperluan hukum atau lembaga resmi. Kami juga tidak bertanggung jawab atas kesalahan akibat dokumen sumber yang tidak jelas. <br \>
+                    <br \>
+                </p>
+            </div>
+        </section>
+        <!--TOS-->
+
+         <!--Example-->
+        <section class="explore2" id="example">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Examples</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <article class="explore2-content">
+                        <h4 class="dark">Example 1</h4>
+                        <p class="font-color">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis odio at erat mattis fermentum vitae ac massa. Nam egestas mauris elit, nec aliquet nisl sodales nec. Cras rutrum fringilla placerat. Sed sollicitudin finibus mauris, ac condimentum quam malesuada non. Integer interdum convallis metus, vel gravida tortor ultricies quis. Proin eu tempor ex. Donec ullamcorper ex congue arcu consectetur malesuada. Morbi quam dui, auctor vel ex at, venenatis varius lorem. Morbi accumsan sodales ante non blandit. Ut elementum eros mauris. Etiam faucibus justo sit amet gravida volutpat. Maecenas magna ipsum, ultrices at interdum sed, fringilla in ante. Pellentesque tempor placerat tortor, lobortis luctus risus egestas sit amet. Etiam fringilla, tortor at lobortis elementum, est augue sagittis diam, sed euismod purus felis accumsan ipsum. Cras in lacus felis. Donec sollicitudin eleifend nunc, at bibendum ipsum sodales in.
+                        </p>
+                    </article>
+                    <article class="explore2-content">
+                        <h4 class="dark">Example 2</h4>
+                        <p class="font-color">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis odio at erat mattis fermentum vitae ac massa. Nam egestas mauris elit, nec aliquet nisl sodales nec. Cras rutrum fringilla placerat. Sed sollicitudin finibus mauris, ac condimentum quam malesuada non. Integer interdum convallis metus, vel gravida tortor ultricies quis. Proin eu tempor ex. Donec ullamcorper ex congue arcu consectetur malesuada. Morbi quam dui, auctor vel ex at, venenatis varius lorem. Morbi accumsan sodales ante non blandit. Ut elementum eros mauris. Etiam faucibus justo sit amet gravida volutpat. Maecenas magna ipsum, ultrices at interdum sed, fringilla in ante. Pellentesque tempor placerat tortor, lobortis luctus risus egestas sit amet. Etiam fringilla, tortor at lobortis elementum, est augue sagittis diam, sed euismod purus felis accumsan ipsum. Cras in lacus felis. Donec sollicitudin eleifend nunc, at bibendum ipsum sodales in.
+                        </p>
+                    </article>
+                    <article class="explore2-content">
+                        <h4> Example 3</h4>
+                        <p class="font-color">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis odio at erat mattis fermentum vitae ac massa. Nam egestas mauris elit, nec aliquet nisl sodales nec. Cras rutrum fringilla placerat. Sed sollicitudin finibus mauris, ac condimentum quam malesuada non. Integer interdum convallis metus, vel gravida tortor ultricies quis. Proin eu tempor ex. Donec ullamcorper ex congue arcu consectetur malesuada. Morbi quam dui, auctor vel ex at, venenatis varius lorem. Morbi accumsan sodales ante non blandit. Ut elementum eros mauris. Etiam faucibus justo sit amet gravida volutpat. Maecenas magna ipsum, ultrices at interdum sed, fringilla in ante. Pellentesque tempor placerat tortor, lobortis luctus risus egestas sit amet. Etiam fringilla, tortor at lobortis elementum, est augue sagittis diam, sed euismod purus felis accumsan ipsum. Cras in lacus felis. Donec sollicitudin eleifend nunc, at bibendum ipsum sodales in.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--Example-->
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="title">
+                <h1 class="font-color">Contact Person</h1>
+                <div class="line"></div>
+            </div>
+            <div class="contact_us">
+                <div class="cbox">
+                    <div class="c_boxx">
+                        <a class="disabled" href="mailto:arifabdul99089@gmail.com"
+                            ><i class="fa fa-envelope"></i>
+                            Email: justranslate.id@gmail.com
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a class="disabled" href="https://api.whatsapp.com/send?phone=62895397038478"
+                            ><i class="fa fa-whatsapp"></i>
+                            WhatsApp: (+62) 895-3970-38478
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a class="disabled" href="#contact"
+                            ><i class="fa fa-map-marker"></i>
+                            Location: Universitas Trunojoyo Madura
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <span>Created By ALiteralSalt <br \> JusTranslate &#169; 2025 All rights reserved.</span>
+            <div style="margin-top: 10px;">
+            </div>
+        </section>
+        <!--footer-->
+
+         <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+        </script>
+        <script>
+            
+            document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+    
+            cards.forEach((card, index) => {
+            const cardNum = index + 1;
+        
+            // Load judul
+            const savedTitle = localStorage.getItem(`wisata_title_${cardNum}`);
+            if (savedTitle) {
+                card.querySelector('h4').textContent = savedTitle;
+            }
+            
+            // Load deskripsi
+            const savedText = localStorage.getItem(`wisata_text_${cardNum}`);
+            if (savedText) {
+                card.querySelector('p').textContent = savedText;
+            }
+            
+            // Load gambar
+            const savedImg = localStorage.getItem(`wisata_img_${cardNum}`);
+            if (savedImg) {
+                card.querySelector('img').src = savedImg;
+            }
+            });
+            });
+        </script>
+</style>
+<button onclick="topFunction()" id="upbtn" title="Kembali ke atas" class="arrow"></button>
+    </body>
+</html>
