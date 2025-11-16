@@ -363,6 +363,110 @@
   }
 }
 
+@media screen and (max-height: 850px){
+  .events {
+    width: 100%;
+    height: 110vh;
+  }
+
+  .events2{
+    width: 100%;
+    height: 260vh;
+  }
+
+ .explore {
+    width: 100%;
+    height:450vh;
+  }
+
+  .explore2 {
+    width: 100%;
+    height: 320vh;
+  }
+
+  .cbox {
+    width: 95%;
+  }
+}
+
+@media screen and (max-height: 800px){
+  .events {
+    width: 100%;
+    height: 110vh;
+  }
+
+  .events2{
+    width: 100%;
+    height: 270vh;
+  }
+
+ .explore {
+    width: 100%;
+    height:470vh;
+  }
+
+  .explore2 {
+    width: 100%;
+    height: 340vh;
+  }
+
+  .cbox {
+    width: 95%;
+  }
+}
+
+@media screen and (max-height: 750px){
+  .events {
+    width: 100%;
+    height: 130vh;
+  }
+
+  .events2{
+    width: 100%;
+    height: 290vh;
+  }
+
+ .explore {
+    width: 100%;
+    height:490vh;
+  }
+
+  .explore2 {
+    width: 100%;
+    height: 360vh;
+  }
+
+  .cbox {
+    width: 95%;
+  }
+}
+
+@media screen and (max-height: 700px){
+  .events {
+    width: 100%;
+    height: 150vh;
+  }
+
+  .events2{
+    width: 100%;
+    height: 310vh;
+  }
+
+ .explore {
+    width: 100%;
+    height:510vh;
+  }
+
+  .explore2 {
+    width: 100%;
+    height: 380vh;
+  }
+
+  .cbox {
+    width: 95%;
+  }
+}
+
 .ctn, .back-btn {
   font-size: 1em;
   padding: 14px 30px;
