@@ -231,6 +231,12 @@ section {
   gap: 50px;
 }
 
+.titles {
+  text-align: center;
+  font-family: var(--ff-montserrat);
+  font-size: 2vmin;
+}
+
 .card {
   cursor: pointer;
   height :400px
