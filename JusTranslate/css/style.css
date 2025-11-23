@@ -129,7 +129,7 @@ html {
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/chillhead.jpg");
+  background-image: url("../img/chillbg3.jpg");
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -223,18 +223,18 @@ section {
   font-size: 4vmin;
 }
 
+.titles {
+  text-align: center;
+  font-family: var(--ff-montserrat);
+  font-size: 2vmin;
+}
+
 .row {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-}
-
-.titles {
-  text-align: center;
-  font-family: var(--ff-montserrat);
-  font-size: 2vmin;
 }
 
 .card {
@@ -349,7 +349,7 @@ section {
 .explore2 {
   width: 100%;
   height: 130vh;
-  background-image: url(../img/chillbg3.jpg);
+  background-image: url(../img/chillbg1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -403,6 +403,68 @@ section {
 }
 
 .explore2-content .ctn {
+  margin: 17px auto;
+  padding: 12px 27px;
+}
+
+/* explore3 */
+.explore3 {
+  width: 100%;
+  height: 130vh;
+  background-image: url(../img/chillbg4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.explore3-content {
+  font-family: var(--ff-lora);
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 8rem;
+  position: relative;
+  z-index: 1;
+  padding: 2rem 17px;
+  margin: auto;
+}
+
+.explore3-content::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2.5px);
+  border-radius: 0.5rem;
+}
+
+.explore3-content h1 {
+  /* width: 100%; */
+  font-size: calc(2.2rem + 1vw);
+  letter-spacing: 0.3rem;
+  margin: auto;
+}
+
+.explore3-content .line {
+  margin-bottom: 50px;
+}
+
+.explore3-content p {
+  color: rgb(221, 221, 221);
+  max-width: 65ch;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0px 35px;
+}
+
+.explore3-content .ctn {
   margin: 17px auto;
   padding: 12px 27px;
 }
