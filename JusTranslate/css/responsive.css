@@ -55,10 +55,6 @@
     border-bottom-left-radius: 10%;
   }
 
-  .nav-links li {
-    margin: 30px auto;
-  }
-
   .events {
     width: 100%;
     height: 60vh;
@@ -77,6 +73,11 @@
   .explore2 {
     width: 100%;
     height: 180vh;
+  }
+
+  .explore3 {
+    width: 100%;
+    height: 140vh;
   }
 }
 
@@ -180,6 +181,11 @@
     width: 100%;
     height: 180vh;
   }
+  
+  .explore3 {
+    width: 100%;
+    height: 160vh;
+  }
 
   .cbox {
     width: 90%;
@@ -229,6 +235,11 @@
     width: 100%;
     height: 210vh;
   }
+
+  .explore3 {
+    width: 100%;
+    height: 175vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -277,6 +288,11 @@
     width: 100%;
     height: 230vh;
   }
+
+  .explore3 {
+    width: 100%;
+    height: 230vh;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -305,6 +321,11 @@
   .explore2 {
     width: 100%;
     height: 310vh;
+  }
+
+  .explore3 {
+    width: 100%;
+    height:290vh;
   }
 }
 
@@ -335,6 +356,11 @@
     width: 100%;
     height: 340vh;
   }
+
+  .explore3 {
+    width: 100%;
+    height:360vh;;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -356,6 +382,11 @@
   .explore2 {
     width: 100%;
     height: 350vh;
+  }
+
+  .explore3 {
+    width: 100%;
+    height:420vh;
   }
 
   .cbox {
@@ -384,6 +415,11 @@
     height: 370vh;
   }
 
+  .explore3 {
+    width: 100%;
+    height:450vh;
+  }
+
   .cbox {
     width: 95%;
   }
@@ -408,6 +444,11 @@
   .explore2 {
     width: 100%;
     height: 390vh;
+  }
+
+  .explore3 {
+    width: 100%;
+    height:470vh;
   }
 
   .cbox {
@@ -436,6 +477,11 @@
     height: 410vh;
   }
 
+  .explore3 {
+    width: 100%;
+    height:490vh;
+  }
+
   .cbox {
     width: 95%;
   }
@@ -460,6 +506,11 @@
   .explore2 {
     width: 100%;
     height: 430vh;
+  }
+
+  .explore3 {
+    width: 100%;
+    height:510vh;
   }
 
   .cbox {
